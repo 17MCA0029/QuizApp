@@ -1,0 +1,15 @@
+import React from 'react'
+import ReactDOM from "react-dom"
+import Quiz from "./Quiz"
+
+function App() {
+  return (
+    <div>
+      <Quiz> </Quiz>
+    </div>
+  )
+}
+
+export default App
+
+ReactDOM.render(<App> </App> ,document.getElementById("root"));
